@@ -13,7 +13,7 @@ In these cases the bypass logic takes care so that correct values of are used fo
 pending
 # Code Description
 
-###uatg_registers_walking1.py
+### uatg_registers_walking1.py
 * in this test register write of 0x1 is performed with left shifting it after each write .
 * leftshifted 1 bit is loaded . 
 * checked if the loaded register has a non zero value . if its zero executinon jumps to trap and incremets x31 
@@ -21,7 +21,7 @@ pending
 * if the anded value is not equal to 0 , a trap is raised . 
 * This test checks for stuck at 0 glitches .
 
-###uatg_bypass_arithmatic.py
+### uatg_bypass_arithmatic.py
 * a legal random number A is loaded to a register Xi
 * a legal random number B is loaded to a register Xi+1
 * a legal random number C is added to the Xi and stored to Xi+1
