@@ -58,4 +58,10 @@ In these cases the bypass logic takes care so that correct values of are used fo
 * If the value at X5 doesnt match that aat X7 , a trap is raised .
 * this tests if the correct value of Xi+1 is bypassed from the write back stage to the decode stage for the next instruction
 
+References:
+1. Chromite core documentation
+https://chromite.readthedocs.io/en/latest/chromite.html
+
+2. UATG tests documentation by Incore semiconductors
+https://uatg.readthedocs.io/en/stable/index.html
 
