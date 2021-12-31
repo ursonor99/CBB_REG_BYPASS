@@ -4,7 +4,7 @@ from typing import Dict, List, Union, Any
 import random
 
 
-class uatg_rathish_rf01(IPlugin):
+class uatg_registers_1bit_crawl(IPlugin):
     """
     This class contains methods to generate and validate the tests such that
     1. No bit in RTL is stuck at 0
