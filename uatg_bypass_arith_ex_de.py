@@ -4,7 +4,7 @@ from typing import Dict, List, Union, Any
 import random
 
 
-class uatg_rathish_bp01(IPlugin):
+class uatg_bypass_arith_ex_de(IPlugin):
     """
     This class contains methods to generate and validate the tests such that
     if the value of register after multiple operations remains unchanged.
