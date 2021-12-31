@@ -4,7 +4,7 @@ from typing import Dict, List, Union, Any
 import random
 
 
-class uatg_rathish_rf02(IPlugin):
+class uatg_registers_reg0_zero.py(IPlugin):
     """
     This class contains methods to generate and validate the tests for x0 register 
     which is hardwired to 0.
