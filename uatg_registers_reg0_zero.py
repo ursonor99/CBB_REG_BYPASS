@@ -38,7 +38,7 @@ class uatg_registers_01(IPlugin):
         reg_file = base_reg_file.copy()
       		
         asm = f"\t li x1, 0x0\n"
-        for i in ['li', 'addi', 'subi', 'mul', 'and' , ]:
+        for i in ['li', 'addi', 'subi', 'mul', 'and' ]:
             asm += f"\t {i} {reg_file[0]}, {reg_file[0]}, 0x4\n"
             asm += f"\t bne {reg_file[0]}, {reg_file[1]}, trap\n"
             asm += f"\t trap: addi {reg_file[30]}, {reg_file[30]}, 1\n"
