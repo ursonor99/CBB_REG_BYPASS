@@ -35,7 +35,7 @@ class uatg_bypass_arith_ex_de(IPlugin):
         reg_file = base_reg_file.copy()
         #print(reg_file)
 
-        for i in range(0,len(reg_file)):
+        for i in range(1,len(reg_file)):
             
             if i < 29 :
                 a = hex(random.getrandbits(self.xlen))
