@@ -37,7 +37,7 @@ class uatg_registers_1bit_crawl(IPlugin):
         """
         reg_file = base_reg_file.copy()
 
-        for i in range(0, len(reg_file)):
+        for i in range(1, len(reg_file)):
         	
             for j in range(0, self.xlen):
                 if i<30:
