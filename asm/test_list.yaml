@@ -1,0 +1,64 @@
+uatg_bypass_arith_ex_de-001:
+  asm_file: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_ex_de-001/uatg_bypass_arith_ex_de-001.S
+  cc: riscv64-unknown-elf-gcc
+  cc_args: '-mcmodel=medany -static -std=gnu99 -O2 -fno-common -fno-builtin-printf
+    -fvisibility=hidden '
+  compile_macros: [XLEN=64]
+  extra_compile: []
+  generator: uatg
+  include: [/home/sushanth/uatg/uatg/env/, /home/sushanth/chromite-core-verif/mywork/rathish/../]
+  isa: RV64IMACSUZicsr_Zifencei
+  linker_args: -static -nostdlib -nostartfiles -lm -lgcc -T
+  linker_file: /home/sushanth/chromite-core-verif/mywork/rathish/../link.ld
+  mabi: lp64
+  march: rv64imac
+  result: Unavailable
+  work_dir: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_ex_de-001
+uatg_bypass_arith_mem_de-001:
+  asm_file: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_mem_de-001/uatg_bypass_arith_mem_de-001.S
+  cc: riscv64-unknown-elf-gcc
+  cc_args: '-mcmodel=medany -static -std=gnu99 -O2 -fno-common -fno-builtin-printf
+    -fvisibility=hidden '
+  compile_macros: [XLEN=64]
+  extra_compile: []
+  generator: uatg
+  include: [/home/sushanth/uatg/uatg/env/, /home/sushanth/chromite-core-verif/mywork/rathish/../]
+  isa: RV64IMACSUZicsr_Zifencei
+  linker_args: -static -nostdlib -nostartfiles -lm -lgcc -T
+  linker_file: /home/sushanth/chromite-core-verif/mywork/rathish/../link.ld
+  mabi: lp64
+  march: rv64imac
+  result: Unavailable
+  work_dir: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_mem_de-001
+uatg_bypass_arith_wb_de-001:
+  asm_file: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_wb_de-001/uatg_bypass_arith_wb_de-001.S
+  cc: riscv64-unknown-elf-gcc
+  cc_args: '-mcmodel=medany -static -std=gnu99 -O2 -fno-common -fno-builtin-printf
+    -fvisibility=hidden '
+  compile_macros: [XLEN=64]
+  extra_compile: []
+  generator: uatg
+  include: [/home/sushanth/uatg/uatg/env/, /home/sushanth/chromite-core-verif/mywork/rathish/../]
+  isa: RV64IMACSUZicsr_Zifencei
+  linker_args: -static -nostdlib -nostartfiles -lm -lgcc -T
+  linker_file: /home/sushanth/chromite-core-verif/mywork/rathish/../link.ld
+  mabi: lp64
+  march: rv64imac
+  result: Unavailable
+  work_dir: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_bypass_arith_wb_de-001
+uatg_registers_1bit_crawl-001:
+  asm_file: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_registers_1bit_crawl-001/uatg_registers_1bit_crawl-001.S
+  cc: riscv64-unknown-elf-gcc
+  cc_args: '-mcmodel=medany -static -std=gnu99 -O2 -fno-common -fno-builtin-printf
+    -fvisibility=hidden '
+  compile_macros: [XLEN=64]
+  extra_compile: []
+  generator: uatg
+  include: [/home/sushanth/uatg/uatg/env/, /home/sushanth/chromite-core-verif/mywork/rathish/../]
+  isa: RV64IMACSUZicsr_Zifencei
+  linker_args: -static -nostdlib -nostartfiles -lm -lgcc -T
+  linker_file: /home/sushanth/chromite-core-verif/mywork/rathish/../link.ld
+  mabi: lp64
+  march: rv64imac
+  result: Unavailable
+  work_dir: /home/sushanth/chromite-core-verif/mywork/rathish/uatg_registers_1bit_crawl-001
